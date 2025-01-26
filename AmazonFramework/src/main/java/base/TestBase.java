@@ -37,7 +37,7 @@ public class TestBase
 		try
 		{
 			prop= new Properties();
-			FileInputStream in= new FileInputStream("C:/Users/baner/eclipse-workspace/AmazonFramework"
+			FileInputStream in= new FileInputStream("C:/Users/baner/git/AmazonFrameworkV1/AmazonFramework"
 					+ "/src/main/java/config/config.properties");
 			prop.load(in);
 		}

@@ -50,7 +50,7 @@ public class TestBase
 	public void initialization()
 	{
 		String browserName= prop.getProperty("browser");
-		if(browserName.equals("chrome"))
+		if(browserName.equalsIgnoreCase("chrome"))
 		{
 			ChromeOptions option= new ChromeOptions();
 			option.setExperimentalOption("useAutomationExtension", false);
